@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sticky__header {
+  @apply w-full h-[80px] leading-[70px] sticky top-0 left-0 z-[999] shadow-lg bg-blue-300;
+}
