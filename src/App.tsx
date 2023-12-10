@@ -7,6 +7,9 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import DragDrop from "./components/DragDrop";
 import List from "./components/List";
+import Crypto from "./components/Crypto";
+import Crypto2 from "./components/Cryoto2";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <DragDrop />
       </DndProvider>
       <List />
+      <Crypto />
+      <Crypto2 />
+      <Slider />
     </div>
   );
 }
